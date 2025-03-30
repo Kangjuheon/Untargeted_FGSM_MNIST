@@ -19,6 +19,10 @@ We implemented the following tasks:
 - `requirements.txt` — List of required Python packages
 
 ## How to Run
+```bash
+#colab 실행시
+from google.colab import files
+uploaded = files.upload()
 
 ```bash
 pip install -r requirements.txt
