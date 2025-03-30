@@ -95,7 +95,7 @@ def test(model, test_loader, eps=0.3):
     print(f"Clean Accuracy: {clean_acc:.2f}%")
     print(f"Adversarial Accuracy (eps={eps}): {adv_acc:.2f}%")
 
-# ✅ 실행 시작
+# 실행 시작
 if __name__ == "__main__":
     model = SimpleCNN().to(device)
     train(model, train_loader, epochs=3)
