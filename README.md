@@ -23,7 +23,7 @@ We implemented the following tasks:
 #colab 실행시
 from google.colab import files
 uploaded = files.upload()
-
+```
 ```bash
 pip install -r requirements.txt
 python test.py
